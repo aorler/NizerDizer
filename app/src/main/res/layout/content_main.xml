@@ -9,6 +9,7 @@
     tools:showIn="@layout/activity_main">
 
     <TextView
+        android:id="@+id/rollResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Let's   Play!"
@@ -23,8 +24,8 @@
         android:id="@+id/rollButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         android:text="Roll!"
+        android:onClick="rollDice"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="parent"
